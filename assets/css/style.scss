@@ -1,0 +1,38 @@
+body,html{
+    margin: 0;
+    padding: 0;
+}
+button{
+
+text-decoration: none;
+border: none !important;
+    .la-bars{
+        font-size: 7vw;
+    }   
+}
+button:active{
+    border: outset;
+}
+.navbar-brand{
+    font-size: 1.5rem;
+
+}
+.navbar-brand:hover{
+    color: crimson!important;
+    transition: 0.2s;
+}
+
+
+#firsts{
+    margin-top: 5rem;
+}
+img:hover{
+    opacity: 50%;
+}
+.las {
+    color: crimson;
+    font-size: 2vw;
+}
+.font-secondary{
+    color: slategray ;
+}
