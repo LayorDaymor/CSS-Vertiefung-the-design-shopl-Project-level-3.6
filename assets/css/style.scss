@@ -11,8 +11,8 @@ body,html{
     position: fixed;
     color: crimson !important ;
     top:38rem;
-    right: 2rem;
-    opacity: 70%;
+    right: 1rem;
+    opacity: 40%;
     z-index: 100;
     display: block;
     transition: top 0.3s;
@@ -85,7 +85,7 @@ a:link {
 
   }
   .lab{
-      color: white;
+      color: black;
       font-size: 1.8rem;
       margin-left: 1rem;
       transition: ease 0.5s;   
@@ -112,12 +112,28 @@ input[type=text]{
     border-bottom: solid 1px slategray ;
 }
 #navbar {
-
     display: block;
     transition: top 0.3s;
   }
 #das-erste{
 margin-top: 10vw !important;
+}
+.d-f{
+    color: #4267B2;
+}
+
+.d-i{
+    color: #E1306C;
+}
+.d-t{
+    color: #1DA1F2;
+}
+.d-g{
+    color: #db4a39;
+}
+
+.d-ic{
+    color: #006192;
 }
 
 

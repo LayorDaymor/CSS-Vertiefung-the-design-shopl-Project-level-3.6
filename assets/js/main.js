@@ -6,7 +6,7 @@ var currentScrollPos2 = window.pageYOffset;
     document.getElementById("navbar").style.top = "0";
   } else {
     document.getElementById("scroll-up").style.top = "34rem";
-    document.getElementById("navbar").style.top = "-200px";
+    document.getElementById("navbar").style.top = "-100px";
   }
   prevScrollpos2 = currentScrollPos2;
 }
