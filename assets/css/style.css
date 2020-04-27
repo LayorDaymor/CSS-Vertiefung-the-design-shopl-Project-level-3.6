@@ -2,7 +2,7 @@
 body, html {
   margin: 0;
   padding: 0;
-  scroll-behavior: smooth;
+  scroll-behavior: smooth !important;
   font-family: 'Karla', sans-serif !important;
 }
 
@@ -108,6 +108,7 @@ a:link {
 
 footer {
   color: white;
+  background-color: black !important;
 }
 
 input[type=text]:focus {
