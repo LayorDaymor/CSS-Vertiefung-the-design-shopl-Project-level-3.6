@@ -1,14 +1,16 @@
+@import url("https://fonts.googleapis.com/css2?family=Karla&display=swap");
 body, html {
   margin: 0;
   padding: 0;
   scroll-behavior: smooth;
+  font-family: 'Karla', sans-serif !important;
 }
 
 body .la-chevron-circle-up, html .la-chevron-circle-up {
   font-size: 3.5rem;
   position: fixed;
   color: crimson;
-  top: 45rem;
+  top: 38rem;
   right: 1rem;
   opacity: 50%;
 }
@@ -27,8 +29,8 @@ button .la-bars {
   color: #343A40;
 }
 
-button:active {
-  border: outset;
+button:focus {
+  outline: none !important;
 }
 
 .navbar-brand {
@@ -45,8 +47,32 @@ button:active {
   margin-top: 5rem;
 }
 
+img {
+  opacity: 1;
+  -webkit-animation: flash 1.5s;
+  animation: flash 1.5s;
+}
+
 img:hover {
   opacity: 50%;
+}
+
+@-webkit-keyframes flash {
+  0% {
+    opacity: .4;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes flash {
+  0% {
+    opacity: .4;
+  }
+  100% {
+    opacity: 1;
+  }
 }
 
 .la-angle-right, .la-angle-left {
@@ -67,6 +93,12 @@ a:link {
   color: white;
   font-size: 1.8rem;
   margin-left: 1rem;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.lab:hover {
+  color: crimson;
 }
 
 .mb-0 {
@@ -75,5 +107,15 @@ a:link {
 
 footer {
   color: white;
+}
+
+input[type=text]:focus {
+  outline: none;
+}
+
+input[type=text] {
+  border: none;
+  border-radius: 0px !important;
+  border-bottom: solid 1px #6E777F;
 }
 /*# sourceMappingURL=style.css.map */
