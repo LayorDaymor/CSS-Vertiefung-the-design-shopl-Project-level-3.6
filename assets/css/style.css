@@ -1,6 +1,20 @@
 body, html {
   margin: 0;
   padding: 0;
+  scroll-behavior: smooth;
+}
+
+body .la-chevron-circle-up, html .la-chevron-circle-up {
+  font-size: 3.5rem;
+  position: fixed;
+  color: crimson;
+  top: 45rem;
+  right: 1rem;
+  opacity: 50%;
+}
+
+body .la-chevron-circle-up:hover, html .la-chevron-circle-up:hover {
+  opacity: 100%;
 }
 
 button {
@@ -10,6 +24,7 @@ button {
 
 button .la-bars {
   font-size: 2rem;
+  color: #343A40;
 }
 
 button:active {
@@ -40,7 +55,7 @@ img:hover {
 }
 
 .font-secondary {
-  color: slategray;
+  color: #343A40;
 }
 
 a:link {
@@ -50,7 +65,7 @@ a:link {
 
 .lab {
   color: white;
-  font-size: 2rem;
+  font-size: 1.8rem;
   margin-left: 1rem;
 }
 
@@ -60,9 +75,5 @@ a:link {
 
 footer {
   color: white;
-}
-
-.la-phone, .la-envelope, .la-home, .la-tty {
-  margin-right: 1rem;
 }
 /*# sourceMappingURL=style.css.map */
