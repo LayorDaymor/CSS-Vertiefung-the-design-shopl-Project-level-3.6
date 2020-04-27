@@ -9,7 +9,7 @@ button {
 }
 
 button .la-bars {
-  font-size: 7vw;
+  font-size: 2rem;
 }
 
 button:active {
@@ -34,12 +34,35 @@ img:hover {
   opacity: 50%;
 }
 
-.las {
+.la-angle-right, .la-angle-left {
   color: crimson;
   font-size: 2vw;
 }
 
 .font-secondary {
   color: slategray;
+}
+
+a:link {
+  text-decoration: none;
+  background: none;
+}
+
+.lab {
+  color: white;
+  font-size: 2rem;
+  margin-left: 1rem;
+}
+
+.mb-0 {
+  color: white;
+}
+
+footer {
+  color: white;
+}
+
+.la-phone, .la-envelope, .la-home, .la-tty {
+  margin-right: 1rem;
 }
 /*# sourceMappingURL=style.css.map */
