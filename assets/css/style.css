@@ -7,17 +7,20 @@ body, html {
   font-family: 'Karla', sans-serif !important;
 }
 
-body .la-chevron-circle-up, html .la-chevron-circle-up {
-  font-size: 3.5rem;
+body #scroll-up, html #scroll-up {
+  font-size: 2.5rem;
   position: fixed;
-  color: crimson;
+  color: crimson !important;
   top: 38rem;
-  right: 1rem;
-  opacity: 50%;
+  right: 2rem;
+  opacity: 70%;
   z-index: 100;
+  display: block;
+  -webkit-transition: top 0.3s;
+  transition: top 0.3s;
 }
 
-body .la-chevron-circle-up:hover, html .la-chevron-circle-up:hover {
+body #scroll-up:hover, html #scroll-up:hover {
   opacity: 100%;
 }
 
@@ -121,5 +124,15 @@ input[type=text] {
   border: none;
   border-radius: 0px !important;
   border-bottom: solid 1px slategray;
+}
+
+#navbar {
+  display: block;
+  -webkit-transition: top 0.3s;
+  transition: top 0.3s;
+}
+
+#das-erste {
+  margin-top: 10vw !important;
 }
 /*# sourceMappingURL=style.css.map */

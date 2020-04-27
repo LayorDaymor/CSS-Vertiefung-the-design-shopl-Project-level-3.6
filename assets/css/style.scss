@@ -5,19 +5,22 @@ body,html{
     overflow-y: scroll;
     scroll-behavior: smooth ;
     font-family: 'Karla', sans-serif !important;
-    .la-chevron-circle-up{
-        font-size: 3.5rem;
-        position: fixed;
-        color: crimson;
-        top:38rem;
-        right: 1rem;
-        opacity: 50%;
-        z-index: 100;
-
-    }
-    .la-chevron-circle-up:hover{
-        opacity: 100%;
-    }
+    
+#scroll-up{
+    font-size: 2.5rem;
+    position: fixed;
+    color: crimson !important ;
+    top:38rem;
+    right: 2rem;
+    opacity: 70%;
+    z-index: 100;
+    display: block;
+    transition: top 0.3s;
+    
+}
+#scroll-up:hover{
+opacity: 100%;
+}
 }
 button{
 text-decoration: none;
@@ -108,6 +111,16 @@ input[type=text]{
     border-radius: 0px !important;
     border-bottom: solid 1px slategray ;
 }
+#navbar {
+
+    display: block;
+    transition: top 0.3s;
+  }
+#das-erste{
+margin-top: 10vw !important;
+}
+
+
 
   
 
