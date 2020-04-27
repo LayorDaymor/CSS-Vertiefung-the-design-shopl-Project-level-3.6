@@ -13,6 +13,7 @@ body .la-chevron-circle-up, html .la-chevron-circle-up {
   top: 38rem;
   right: 1rem;
   opacity: 50%;
+  z-index: 100;
 }
 
 body .la-chevron-circle-up:hover, html .la-chevron-circle-up:hover {
@@ -93,8 +94,8 @@ a:link {
   color: white;
   font-size: 1.8rem;
   margin-left: 1rem;
-  -webkit-transition: 0.5s;
-  transition: 0.5s;
+  -webkit-transition: ease 0.5s;
+  transition: ease 0.5s;
 }
 
 .lab:hover {
@@ -111,11 +112,12 @@ footer {
 
 input[type=text]:focus {
   outline: none;
+  border: none;
 }
 
 input[type=text] {
   border: none;
   border-radius: 0px !important;
-  border-bottom: solid 1px #6E777F;
+  border-bottom: solid 1px slategray;
 }
 /*# sourceMappingURL=style.css.map */
