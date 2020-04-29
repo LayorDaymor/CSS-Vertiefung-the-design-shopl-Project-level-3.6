@@ -10,12 +10,12 @@ body,html{
     font-size: 2.5rem;
     position: fixed;
     color: crimson !important ;
-    top:38rem;
+    bottom: 1vw;
     right: 1rem;
     opacity: 40%;
     z-index: 100;
     display: block;
-    transition: top 0.3s;
+    transition: ease 0.3s;
     
 }
 #scroll-up:hover{
@@ -116,7 +116,7 @@ input[type=text]{
     transition: top 0.3s;
   }
 #das-erste{
-margin-top: 10vw !important;
+margin-top: 10vw;
 }
 .d-f{
     color: #4267B2;
@@ -132,18 +132,18 @@ margin-top: 10vw !important;
     color: #db4a39;
 }
 
-.d-ic{
+.d-li{
     color: #006192;
 }
 @media (min-width: 577px) and (max-width: 768px){
 body,html{
-    scroll-behavior: smooth !important;
+    scroll-behavior: smooth;
 }
 }
 /* Mobile Version */
 @media (max-width: 576px) { 
     body,html{
-        scroll-behavior: smooth !important;
+        scroll-behavior: smooth ;
     }
 
 }
