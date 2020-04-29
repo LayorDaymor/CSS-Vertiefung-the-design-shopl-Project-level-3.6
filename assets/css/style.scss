@@ -135,6 +135,18 @@ margin-top: 10vw !important;
 .d-ic{
     color: #006192;
 }
+@media (min-width: 577px) and (max-width: 768px){
+body,html{
+    scroll-behavior: smooth !important;
+}
+}
+/* Mobile Version */
+@media (max-width: 576px) { 
+    body,html{
+        scroll-behavior: smooth !important;
+    }
+
+}
 
 
 
