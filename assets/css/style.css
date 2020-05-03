@@ -95,7 +95,7 @@ a:link {
 }
 
 .lab {
-  color: black;
+  color: white;
   font-size: 1.8rem;
   margin-left: 1rem;
   -webkit-transition: ease 0.5s;
@@ -117,13 +117,14 @@ footer {
 
 input[type=text]:focus {
   outline: none;
-  border: none;
+  background: none;
 }
 
 input[type=text] {
   border: none;
   border-radius: 0px !important;
   border-bottom: solid 1px slategray;
+  background: none;
 }
 
 #navbar {
@@ -156,16 +157,7 @@ input[type=text] {
   color: #006192;
 }
 
-@media (min-width: 577px) and (max-width: 768px) {
-  body, html {
-    scroll-behavior: smooth;
-  }
-}
-
-/* Mobile Version */
-@media (max-width: 576px) {
-  body, html {
-    scroll-behavior: smooth;
-  }
+.navbar {
+  background-color: #000000;
 }
 /*# sourceMappingURL=style.css.map */
